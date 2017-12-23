@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "253312703357",
+    "firebase_url": "https://albarbeque-111d5.firebaseio.com",
+    "project_id": "albarbeque-111d5",
+    "storage_bucket": "albarbeque-111d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253312703357:android:1e8ecec9e6616bd9",
+        "android_client_info": {
+          "package_name": "com.dev.firdous.al_barbeque"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253312703357-aucj6bksvlll117bekliks9tele1ejm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.firdous.al_barbeque",
+            "certificate_hash": "357dafb5b5b7bc1b20dbdd4e096104532c1d79b6"
+          }
+        },
+        {
+          "client_id": "253312703357-jatiblgtnm69r44geosfjfclnfqe42uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaW_TGwUXQT46tStV2M_jm1p8--rHApB8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253312703357-jatiblgtnm69r44geosfjfclnfqe42uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
