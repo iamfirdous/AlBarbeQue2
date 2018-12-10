@@ -7,6 +7,7 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.dev.firdous.al_barbeque.ui.HomeActivity;
@@ -53,13 +54,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-//    @Override
-//    protected void onStart() {
-//        super.onStart();
-//
-//        if(isNetworkAvailable())
-//            mFirebaseAuth.addAuthStateListener(mAuthStateListener);
-//    }
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        if(isNetworkAvailable())
+            mFirebaseAuth.addAuthStateListener(mAuthStateListener);
+
+        Log.e("Hello", "Hi");
+    }
 
     @Override
     protected void onPause() {
